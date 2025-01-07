@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const db = "mongodb+srv://dbuser:mombu1234@cluster0.y5hri.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const db = "mongodb+srv://dbuser:<password>@cluster0.y5hri.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const connectdb = async () => {
   try {
